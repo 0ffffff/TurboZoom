@@ -11,6 +11,8 @@ TurboZoom is a chrome extension made to make storing and launching online meetin
 5. Click load unpacked and locate the TurboZoom extension folder
 6. Enable the extension
 
+The source files must remain for the extension to remain functional.
+
 ## Instructions
 
 ### Creating a Shortcut
