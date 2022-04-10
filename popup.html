@@ -1,126 +1,144 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--link rel="stylesheet" href="button.css"-->
-   
-    <style>
-      body{
-        width: 400px;
-        height:500px;
-        background-color: black;
-      }
 
-      h1{
-        color : rgb(255, 255, 255);
-        font-size : xx-large;
-        font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        outline-color : rgb(224, 224, 224);
-        outline-style : solid;
-        outline-width : 2px;
-        text-align : center;
-      }
+<head>
+  <!--link rel="stylesheet" href="button.css"-->
 
-      h2{
-        color: rgb(255, 255, 255);
-        font-size: large;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
-        margin: 10px;
-        list-style-type: none;
-        outline-width: 5px;
-        outline-color: rgb(224, 224, 224);
-      }
+  <style>
+    body {
+      width: 400px;
+      height: 500px;
+      background-color: black;
+    }
 
-      button{
-        color: rgb(0, 0, 0);
-        font-size: large;
-        margin: auto;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        left: 50%;
-        display: flex;
-        text-align: center;
-      }
+    p {
+      color: rgb(255, 255, 255);
+      font-size: normal;
+      font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+    }
 
-      input{
-        margin: auto;
-        text-align: center;
-        left: 50%;
-        display: flex;
-      }
+    h1 {
+      color: rgb(255, 255, 255);
+      font-size: xx-large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      outline-color: rgb(224, 224, 224);
+      outline-style: solid;
+      outline-width: 2px;
+      text-align: center;
+    }
 
-      table{
-        margin-left: auto;
-        margin-right: auto;
-      }
+    h2 {
+      color: rgb(255, 255, 255);
+      font-size: large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      margin: 10px;
+      list-style-type: none;
+      outline-width: 5px;
+      outline-color: rgb(224, 224, 224);
+    }
 
-      a{
-        color: rgb(255, 255, 255);
-        font-size: large;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
-        margin: 10px;
-        list-style-type: none;
-        outline-width: 5px;
-        outline-color: rgb(224, 224, 224);
-        text-decoration: none;
-      }
+    button {
+      color: rgb(0, 0, 0);
+      font-size: large;
+      margin: auto;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      left: 50%;
+      display: flex;
+      text-align: center;
+    }
 
-      td{
-        color: rgb(255, 255, 255);
-        text-align: center;
-        font-size: medium;
-      }
+    input {
+      margin: auto;
+      text-align: center;
+      left: 50%;
+      display: flex;
+    }
 
-      li{
-        color: rgb(255, 255, 255);
-        font-size: large;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: left;
-        margin: 10px;
-        list-style-type: none;
-        outline-width: 5px;
-        outline-color: rgb(224, 224, 224);
-      }
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
+    a {
+      color: rgb(255, 255, 255);
+      font-size: large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      margin: 10px;
+      list-style-type: none;
+      outline-width: 5px;
+      outline-color: rgb(224, 224, 224);
+      text-decoration: none;
+    }
 
-      #delete{
-        color: rgb(255, 0, 0);
-        font-weight: bold;
-      }
-    </style>
-  </head>
-  <body>
-    <img src="logo_200x200.png">
-    <br>
-    <hr>
-    <br>
-    <button id="convertButton">Smarten Zoom link from clipboard!</button>
-    <ul id="meetLinks">
-    </ul>
+    td {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: medium;
+    }
 
-    <br>
-    <h2>Create new shortcut</h2>
-    <form id="form" action="">
-      <table>
-        <tr>      
-          <td>Meet URL:</td> 
-          <td><input id="zoomUrl" autocomplete="off"/></td>
-        </tr>
-        <tr>      
-          <td>Nickname:</td> 
-          <td><input id="zoomName" autocomplete="off"/></td>
-        </tr>
-      </table>
-      <button>Add</button>
-    </form>
-    <script src="convertLink.js"></script>
-    <script src="listLinks.js"></script>
-    <script src="createShortcut.js"></script>
-  </body>
+    li {
+      color: rgb(255, 255, 255);
+      font-size: large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: left;
+      margin: 10px;
+      list-style-type: none;
+      outline-width: 5px;
+      outline-color: rgb(224, 224, 224);
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    #delete {
+      color: rgb(255, 0, 0);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="logo_200x200.png">
+  <br>
+  <hr>
+  <br>
+  <ul id="meetLinks">
+  </ul>
+
+  <br>
+  <h2>Create new shortcut</h2>
+  <form id="form" action="">
+    <table>
+      <tr>
+        <td>Meet URL:</td>
+        <td><input id="zoomUrl" autocomplete="off" /></td>
+      </tr>
+      <tr>
+        <td>Nickname:</td>
+        <td><input id="zoomName" autocomplete="off" maxlength="20" /></td>
+      </tr>
+    </table>
+    <button>Add</button>
+  </form>
+  <br>
+  <h2>Smarten Zoom link!</h2>
+  <form id="convert" action="">
+    <input id="convUrl" autocomplete="off" /></td>
+    <button>Confirm</button>
+  </form>
+  <br>
+  <p id="resultBox"></p>
+  <br>
+  <script src="convertLink.js"></script>
+  <script src="listLinks.js"></script>
+  <script src="createShortcut.js"></script>
+</body>
+
 </html>
