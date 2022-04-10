@@ -4,6 +4,8 @@
 
 TurboZoom is a Google Chrome extension that aims to streamline the user's experience with Zoom.
 
+## [Instructions](instructions.md)
+
 ### Our idea
 
 Over remote learning, as students we have used Zoom frequently to attend classes. We quickly realized that using Zoom links litters the browser with unnecessary tabs and ask for permission to open the Zoom app multiple times.
