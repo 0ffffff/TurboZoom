@@ -17,7 +17,7 @@ The source files must remain for the extension to remain functional.
 
 ### Creating a Shortcut
 
-Input the meeting url. (either in the format of https://xxx.xxx.com or directly xxx.xxx.com)
+Input the meeting url. (either in the format of https://www.abc.com or directly www.abc.com)
 
 Input desired shortcut name. Leave blank for the name "zoom/google meet".
 
