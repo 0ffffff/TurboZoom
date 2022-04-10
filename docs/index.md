@@ -1,6 +1,6 @@
 # TurboZoom
 ### Created by William Li, Bruce Li, and Rishab Kamalesh
-![TurboZoom logo](logo_200x200.png "TurboZoom logo")
+![TurboZoom logo](Turbo-Zoom-Logo.png "TurboZoom logo")
 
 TurboZoom is a Google Chrome extension that aims to streamline the user's experience with Zoom.
 
